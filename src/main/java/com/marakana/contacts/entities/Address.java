@@ -31,15 +31,6 @@ public class Address {
 		this.zip = zip;
 	}
 
-	public Address(Long id, String street, String city, String state, String zip) {
-		super();
-		this.id = id;
-		this.street = street;
-		this.city = city;
-		this.state = state;
-		this.zip = zip;
-	}
-
 	public Long getId() {
 		return id;
 	}

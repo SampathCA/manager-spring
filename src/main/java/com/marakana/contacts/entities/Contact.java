@@ -27,13 +27,6 @@ public class Contact {
 		this.address = address;
 	}
 
-	public Contact(Long id, String name, Address address) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.address = address;
-	}
-
 	public Long getId() {
 		return id;
 	}
